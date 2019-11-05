@@ -1299,9 +1299,9 @@ snapshot metadata file.
     order of appearance.
 
       * **5.4.6.2.1**. If the current delegation is a multi-role delegation,
-      recursively visit each role, and check that each has signed exactly the
-      same non-custom metadata (i.e., length and hashes) about the target (or
-      the lack of any such metadata).
+      recursively visit each role, and check that a defined threshold of
+      roles has signed exactly the same non-custom metadata (i.e., length and
+      hashes) about the target (or the lack of any such metadata).
 
       * **5.4.6.2.2**. If the current delegation is a terminating delegation,
       then jump to step 5.5.
